@@ -1,0 +1,41 @@
+<% provide(:title, 'All businesss') %>
+<h1>All Businesss</h1>
+<h2>Today is <%= Time.now.strftime('%A') %></h2>
+<%# will_paginate %>
+
+  <ul class="businesses">
+    <% @businesses.each do |business| %>
+      
+    <!--<table style="width:100%">-->
+    <!--  <tr><th>name:</th><td><%= 'Acme Consulting, LLC' %></td></tr>-->
+    <!--  <tr><th>add1:</th><td><%= '1492 Main St' %></td></tr>-->
+    <!--  <tr><th>add2:</th><td><%= 'Blding Lot 5' %></td></tr>-->
+    <!--  <tr><th>city:</th><td><%= 'Hackensack' %></td></tr>-->
+    <!--  <tr><th>state:</th><td><%= 'NJ' %></td></tr>-->
+    <!--  <tr><th>zip:</th><td><%= '07601' %></tr>-->
+    <!--  <tr><th>phone:</th><td><%= '2015551212' %></td></tr>-->
+    <!--  <tr><th>email:</th><td><%= 'jperry@acme.com' %></td></tr>-->
+    <!--  <tr><th>service/product:</th><td><%= 'Consulting' %></td></tr>-->
+    <!--  <tr><th>website:</th><td><%= 'www.acme.com' %></td></tr>-->
+    <!--</table>-->
+
+       
+      <%= business[:name] %>
+      
+      <!--<table>-->
+      <!--  <tr><th>name:</th><tr><%= business[:name] %></tr>-->
+      <!--  <tr><th>add1:</th><tr><%= business[:address1] %></tr>-->
+      <!--  <tr><th>add2:</th><tr><%= business[:address2] %></tr>-->
+      <!--  <tr><th>city:</th><tr><%= business[:city] %></tr>-->
+      <!--  <tr><th>state:</th><tr><%= business[:state] %></tr>-->
+      <!--  <tr><th>zip:</th><tr><%= business[:zip] %></tr>-->
+      <!--  <tr><th>phone:</th><tr><%= business[:phone] %></tr>-->
+      <!--  <tr><th>email:</th><tr><%= business[:email] %></tr>-->
+      <!--  <tr><th>category:</th><tr><%= business[:category] %></tr>-->
+      <!--  <tr><th>website:</th><tr><%= business[:website] %></tr>-->
+      <!--</table>-->
+    <% end %>
+
+  </ul>
+  
+<%# will_paginate %>

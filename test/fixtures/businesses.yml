@@ -1,0 +1,60 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one:
+name: "Acme Consulting, LLC"
+address1: "1492 Main St"
+address2: "Blding Lot 5"
+city: "Hackensack"
+state: "NJ"
+zip: "07601"
+phone: "2015551212"
+email: "jperry@acme.com"
+category: "Consulting"
+fee: "0"
+website: "www.acme.com"
+owner_name: "John Perry"
+owner_phone: "5515551212"
+owner_email: "john.perry@gmail.com"
+service_product: "consulting services"
+receive_email: "true"
+
+#
+two:
+name: "Barbershop"
+address1: "520 Main St"
+address2: ""
+city: "Chicago"
+state: "IL"
+zip: "60007"
+phone: "3125551212"
+email: "calvin.palmer@barbershop.com"
+category: "Barbershop"
+fee: "50"
+website: "www.barbershop.com"
+owner_name: "Calvin Palmer"
+owner_phone: "7735551212"
+owner_email: "john.perry@gmail.com"
+service_product: "cut hair"
+receive_email: "true"
+
+three:
+name: "Happy Valley Spa"
+address1: "1000A Ponderosa Drive"
+address2: ""
+city: "Salt Lake City"
+state: "UT"
+zip: "84150"
+phone: "8015551212"
+email: "aburlow@happyvalley.net"
+category: "Health & Wellness"
+fee: "150"
+website: "www.happyvalley.net"
+owner_name: "Allison Burlow"
+owner_phone: "3855551212"
+owner_email: "burlow411@aol.com"
+service_product: "spa treatment"
+receive_email: "true"
